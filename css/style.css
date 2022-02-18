@@ -71,9 +71,15 @@ footer a:visited{
 /*****  End Starter Code ****/
 
 /* Requirement 1 code here*/
+nav a {
+  text-decoration: none;
+}
 
 /* Requirement 2 code here*/
-
+nav a:hover {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
 
 
 a.skip{
@@ -83,16 +89,19 @@ a.skip{
   transition: left 1s ease-out;
   z-index: 1;
   /* Requirement 3 code here*/
-  
+  position: absolute;
+  left: -500px;
 }
 
 
 /* Requirement 4 code here*/
-
+a:focus {
+  border-top: 2px solid yellow;
+}
 
 .container{
   /* Requirement 5 code here*/
-
+  
 }
 
 /* Requirements 6-10 here: */

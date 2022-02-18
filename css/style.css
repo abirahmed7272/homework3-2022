@@ -169,7 +169,7 @@ img {
 
   
   /* Requirements 12-15 here: */
-  .skip:focus {
+  a.skip:focus {
     position: absolute;
     left: 0px;
     margin-top: 20px;

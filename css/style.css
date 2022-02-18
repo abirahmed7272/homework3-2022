@@ -107,8 +107,8 @@ a:focus {
 
 /* Requirements 6-10 here: */
 .intro {
-  background-image: url(../images/header.jpg);
   background-color: #858585;
+  background-image: url(../images/header.jpg);
   min-height: 400px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -119,7 +119,6 @@ a:focus {
 
 .about, .clients, .method, .contact {
   grid-column: 2 / span 1;
-  display: inline;
 }
 
 img {

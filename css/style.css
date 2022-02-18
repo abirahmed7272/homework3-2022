@@ -107,7 +107,8 @@ a:focus {
 
 /* Requirements 6-10 here: */
 .intro {
-  background: url(../images/header.jpg) #858585;
+  background-image: url(../images/header.jpg);
+  background-color: #858585;
   min-height: 400px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -149,7 +150,7 @@ img {
 }
 
 .text {
-  align-items: center;
+  align-self: center;
   justify-content: center;
   max-height: 25vh;
   overflow: scroll;
